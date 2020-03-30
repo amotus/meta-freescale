@@ -8,10 +8,10 @@ LIC_FILES_CHKSUM = "file://Licenses/README;md5=30503fd321432fc713238f582193b78e"
 
 DEPENDS += "bison-native"
 
-SRC_URI = "git://github.com/Freescale/u-boot-fslc.git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/amotus/u-boot-fslc.git;branch=${SRCBRANCH}"
 
-SRCREV = "ca0ab152714540f93bab9347ad5b706a0a54f037"
-SRCBRANCH = "2019.07+fslc"
+SRCREV = "e50b94d9795062b06f75264bd9a0cb51ba2d95ca"
+SRCBRANCH = "amotus/ccardimx28js-2019.07+fslc"
 
 PV = "v2019.07+git${SRCPV}"
 
