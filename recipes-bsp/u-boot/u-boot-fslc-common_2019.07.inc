@@ -10,7 +10,7 @@ DEPENDS += "bison-native"
 
 SRC_URI = "git://github.com/amotus/u-boot-fslc.git;branch=${SRCBRANCH}"
 
-SRCREV = "49f3cbfbb1cc84eea0298679601a1209f6dc6416"
+SRCREV = "4a4c9c70fcd3ef511b3bbd07fc17c9b5730353cb"
 SRCBRANCH = "amotus/ccardimx28js-2019.07+fslc"
 
 PV = "v2019.07+git${SRCPV}"
